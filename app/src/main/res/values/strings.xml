@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Astrotify</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_an_account_or_login_to_begin_adventuring">Create an account or login to begin adventuring!</string>
+    <string name="hello">Hello</string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="login_with_phone">Login with Phone</string>
+</resources>
