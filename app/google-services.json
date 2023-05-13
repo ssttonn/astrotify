@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "178586679572",
+    "project_id": "astrotify-2d446",
+    "storage_bucket": "astrotify-2d446.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178586679572:android:83bc9b74bd219950642a01",
+        "android_client_info": {
+          "package_name": "com.sstonn.astrotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178586679572-kv9dsmhs72r0m766ue52tnn44aacggaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sstonn.astrotify",
+            "certificate_hash": "505fb2393afdb99ddfe998298754f5586cf74de2"
+          }
+        },
+        {
+          "client_id": "178586679572-22m5c3jhkj45doj2oeh3q7jl9qt4o6cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnqBbhsycCg-R31-9TIPh6OJe2AVsGdKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178586679572-22m5c3jhkj45doj2oeh3q7jl9qt4o6cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

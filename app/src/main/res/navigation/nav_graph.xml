@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.sstonn.astrotify.fragments.LoginFragment"
+        android:name="com.sstonn.astrotify.features.auth.ui.fragments.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -16,12 +16,12 @@
     </fragment>
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.sstonn.astrotify.fragments.SignupFragment"
+        android:name="com.sstonn.astrotify.features.auth.ui.fragments.SignupFragment"
         android:label="fragment_signup"
         tools:layout="@layout/fragment_signup" />
     <fragment
         android:id="@+id/onboardFragment"
-        android:name="com.sstonn.astrotify.fragments.OnboardFragment"
+        android:name="com.sstonn.astrotify.features.auth.ui.fragments.OnboardFragment"
         android:label="fragment_onboard"
         tools:layout="@layout/fragment_onboard" >
         <action

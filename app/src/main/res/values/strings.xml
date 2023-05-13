@@ -3,7 +3,13 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="create_an_account_or_login_to_begin_adventuring">Create an account or login to begin adventuring!</string>
-    <string name="hello">Hello</string>
+    <string name="hello">Hello, welcome to Astrotify</string>
     <string name="login_with_email">Login with Email</string>
     <string name="login_with_phone">Login with Phone</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="no_account">Don\'t have account?</string>
+    <string name="facebook_app_id">196312756627369</string>
+    <string name="fb_login_protocol_scheme">fb196312756627369</string>
+    <string name="facebook_client_token">876c964f2e50ab36081816a94af52631</string>
 </resources>
