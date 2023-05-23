@@ -12,6 +12,7 @@ import android.view.ViewGroup
 import androidx.activity.result.IntentSenderRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import com.facebook.CallbackManager
 import com.facebook.FacebookCallback
 import com.facebook.FacebookException
@@ -60,7 +61,11 @@ class OnboardFragment : Fragment() {
             )
             .build()
 
-
+        binding.loginWithPhoneBtn.setOnClickListener {
+            // TODO: Handle login with phone here
+            val action = OnboardFragmentDirections.actionOnboardFragmentToMainNavigationFragment2()
+            findNavController().navigate(action)
+        }
 
         binding.loginWithGoogleBtn.setOnClickListener {
             signInClient.beginSignIn(signInRequest)
