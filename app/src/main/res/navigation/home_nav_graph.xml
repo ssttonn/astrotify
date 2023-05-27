@@ -4,5 +4,10 @@
             android:id="@+id/home_nav_graph" app:startDestination="@id/homeFragment">
 
     <fragment android:id="@+id/homeFragment" android:name="com.sstonn.astrotify.features.home.ui.fragments.HomeFragment"
-              android:label="HomeFragment"/>
+              android:label="HomeFragment">
+        <action android:id="@+id/action_homeFragment_to_homeDetailFragment" app:destination="@id/homeDetailFragment"/>
+    </fragment>
+    <fragment android:id="@+id/homeDetailFragment"
+              android:name="com.sstonn.astrotify.features.home.ui.fragments.HomeDetailFragment"
+              android:label="HomeDetailFragment"/>
 </navigation>
